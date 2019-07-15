@@ -1,0 +1,55 @@
+{
+  "options": {},
+  "indexes": [
+    {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_",
+      "ns": "sgp.usuarios"
+    },
+    {
+      "v": 2,
+      "key": {
+        "nome": ""
+      },
+      "name": "nome",
+      "ns": "sgp.usuarios"
+    },
+    {
+      "v": 2,
+      "key": {
+        "email": ""
+      },
+      "name": "email",
+      "ns": "sgp.usuarios"
+    },
+    {
+      "v": 2,
+      "unique": true,
+      "key": {
+        "login": ""
+      },
+      "name": "login",
+      "ns": "sgp.usuarios"
+    },
+    {
+      "v": 2,
+      "key": {
+        "senha": ""
+      },
+      "name": "senha",
+      "ns": "sgp.usuarios"
+    },
+    {
+      "v": 2,
+      "key": {
+        "perfil": ""
+      },
+      "name": "perfil",
+      "ns": "sgp.usuarios"
+    }
+  ],
+  "uuid": "d2ffe33daf804a90991b6ebe848e1648"
+}

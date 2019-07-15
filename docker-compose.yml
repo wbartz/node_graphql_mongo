@@ -4,6 +4,8 @@ services:
   service:
     build: .
     container_name: service
+    links:
+      - mongo
   mongo:
     container_name: mongo
     image: mongo:latest
