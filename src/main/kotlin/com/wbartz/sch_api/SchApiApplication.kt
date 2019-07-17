@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SchApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<SchApiApplication>(*args)
+    runApplication<SchApiApplication>(*args)
 }
