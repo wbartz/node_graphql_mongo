@@ -20,9 +20,7 @@ app.use(helmet());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect(
-  "mongodb+srv://william_bartz:f99tFsYEcpTZAA8o@cluster0-jdu4n.mongodb.net/calculo-horas?retryWrites=true&w=majority"
-);
+mongoose.connect();
 
 const UserModel = mongoose.model("usuarios", {
   name: String,
