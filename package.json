@@ -1,0 +1,18 @@
+{
+  "name": "sch_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wbartz/sch_api.git",
+  "author": "William Bartz <william.bartz@softdesign.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-status-monitor": "^1.2.6",
+    "graphql": "^14.4.2",
+    "helmet": "^3.20.0",
+    "mongoose": "^5.6.6",
+    "ngrok": "^3.2.3"
+  }
+}
