@@ -80,7 +80,10 @@ const schema = new GraphQLSchema({
 
 app.use(
   "/graphql",
-  schema,
+  expressGraphQL({
+    schema,
+    graphiql: true
+  })
 );
 
 app.listen(3001, () => {
